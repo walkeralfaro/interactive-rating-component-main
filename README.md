@@ -15,8 +15,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
@@ -32,11 +30,11 @@ The main challenges were::
 
 ### Screenshot
 
-![screenshots_select_input](https://github.com/WalkerAlfaro/interactive-rating-component-main/screenshots/select.png)
+![screenshots_select_input](https://github.com/WalkerAlfaro/interactive-rating-component-main/blob/main/screenshots/select.png)
 
-![screenshots_submit_input](https://github.com/WalkerAlfaro/interactive-rating-component-main/screenshots/submit.png)
+![screenshots_submit_input](https://github.com/WalkerAlfaro/interactive-rating-component-main/blob/main/screenshots/submit.png)
 
-![screenshots_thanks_card](https://github.com/WalkerAlfaro/interactive-rating-component-main/screenshots/thanks.png)
+![screenshots_thanks_card](https://github.com/WalkerAlfaro/interactive-rating-component-main/blob/main/screenshots/thanks.png)
 
 ### Links
 
