@@ -1,0 +1,163 @@
+:root {
+  --Orange: hsl(25, 97%, 53%);
+  --White: hsl(0, 0%, 100%);
+  --LightGrey: hsl(217, 12%, 63%);
+  --MediumGrey: hsl(216, 12%, 54%);
+  --DarkBlue: hsl(213, 19%, 18%);
+  --VeryDarkBlue: hsl(216, 12%, 8%);
+  --CustomGray: rgb(28, 35, 45);
+  --font: "Overpass", sans-serif;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* Permite que un REM sea equivalente a 10px */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--VeryDarkBlue);
+  font-family: var(--font);
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  background-color: var(--VeryDarkBlue);
+}
+
+.flex {
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 39rem;
+  height: 39rem;
+  padding: 3rem;
+  border-radius: 3rem;
+  background-color: var(--CustomGray);
+}
+
+.card__star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--DarkBlue);
+  border-radius: 50%;
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-bottom: 3rem;
+
+}
+
+.card__title {
+    color: var(--White);
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.card__body {
+    color: var(--LightGrey);
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+
+.card__form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__form input[type="radio"] {
+  display: none;
+}
+
+.card__labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin: 1rem 0 2.5rem 0;
+}
+
+.card__form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: var(--LightGrey);
+  background: var(--DarkBlue);
+  font-weight: bold;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  transition: 0.3s;
+}
+
+.card__form label:hover {
+  background: var(--MediumGrey);
+  color: var(--White);
+}
+
+.card__form label:active {
+  background: var(--Orange);
+  color: var(--White);
+}
+
+/* SUBMIT */
+.card__form input[type="submit"] {
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  color: var(--White);
+  background: var(--Orange);
+  height: 4.1rem;
+  border: none;
+  letter-spacing: .3rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card__form input[type="submit"]:hover {
+  color: var(--Orange);
+  background: var(--White);
+}
+
+.attribution {
+  height: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--LightGrey);
+}
+
+.attribution a {
+  color: var(--Orange);
+  text-decoration: none;
+}
+/* ************************************************** */
+/* BACK CARD */
+/* ************************************************** */
+.cardBack .card__title,
+.cardBack .card__body,
+.cardBack .card__image,
+.cardBack .card__score
+{
+  text-align: center;
+}
+
+.cardBack .card__score{
+  color: var(--Orange);
+  border-radius: 2rem;
+  background: var(--DarkBlue);
+  margin: 3rem 7rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
