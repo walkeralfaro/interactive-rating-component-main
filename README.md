@@ -38,7 +38,7 @@ The main challenges were::
 
 ### Links
 
--  [Solution URL](https://github.com/WalkerAlfaro/interactive-rating-component-main)
+-  [Solution URL](https://walkeralfaro.github.io/interactive-rating-component-main/)
 
 ## My process
 
