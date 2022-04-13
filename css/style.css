@@ -39,11 +39,16 @@ body {
 }
 
 .card {
-  width: 39rem;
+  width: 34rem;
   height: 39rem;
   padding: 3rem;
   border-radius: 3rem;
   background-color: var(--CustomGray);
+}
+@media (min-width: 376px) {
+    .card {
+      width: 39rem;
+    }
 }
 
 .card__star {
@@ -154,10 +159,11 @@ body {
 }
 
 .cardBack .card__score{
+  width: 20rem;
   color: var(--Orange);
   border-radius: 2rem;
   background: var(--DarkBlue);
-  margin: 3rem 7rem;
+  margin: 3rem auto;
   padding: 1rem;
   font-size: 1.5rem;
 }
