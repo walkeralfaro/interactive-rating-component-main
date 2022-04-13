@@ -33,7 +33,7 @@ function backCard(score){
     card.innerHTML = `
         <div class="cardBack">
             <div class="card__image">
-                <img src="/images/illustration-thank-you.svg" alt="" />
+                <img src="images/illustration-thank-you.svg" alt="thanks_image" />
             </div>
             <p class="card__score">
                 You selected <span class="carcBack__score">${score}</span> out of 5
